@@ -1,0 +1,409 @@
+﻿@charset "UTF-8";
+@import url("html5reset-1.6.1.css");
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+
+/* ↓レイアウト↓ */
+
+*{
+    line-height:150%;
+}
+
+body{
+    color:#555555;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo;
+    background-color:#eebbcb;
+}
+
+.base{
+    margin:0 auto;
+    width:1000px;
+}
+
+.header{
+    padding:5px;
+    text-align:right;
+    margin:10px 10px 30px 10px;
+}
+
+.footer{
+    padding:5px;
+    text-align:right;
+}
+
+.work{
+    float:right;
+    width:805px;
+    margin:5px;
+    padding:25px 10px;
+    background-color:#ffffff;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+   box-shadow:0px 0px 4px 0px #cccccc;
+-moz-box-shadow:0px 0px 4px 0px #cccccc;
+-webkit-box-shadow:0px 0px 4px 0px #cccccc;
+}
+
+.menu{
+    float:left;
+    width:150px;
+    padding:5px;
+}
+
+.box{
+    overflow: hidden ;		/* floatを解除する */
+}
+
+.text{
+    margin:5px;
+    padding:25px 15px;
+    line-height:180%;
+    background-color:#ffffff;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+   box-shadow:0px 0px 4px 0px #cccccc;
+-moz-box-shadow:0px 0px 4px 0px #cccccc;
+-webkit-box-shadow:0px 0px 4px 0px #cccccc;
+}
+
+.textmenu{
+    text-align:center;
+    padding:5px;
+    margin:5px;
+    word-spacing:20px;
+    font-family: "メイリオ", Meiryo;
+}
+
+.container{
+	position:relative;
+	width:100%;
+	height:150px;
+}
+
+/*フォント*/
+.bound span{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	margin: auto;
+	font-size:5em;
+	font-weight:bold;
+	color:#0091EA;
+	text-align:center;
+	width:500px;
+	height:100px;
+	animation: bound-anim 0.8s infinite;
+}
+
+@keyframes bound-anim {
+	0%,100% {top: 0;transform: scale(1);}
+	30% {top: -25%;}
+	50% {transform: scale(1);}
+	90% {top: 0;transform: scale(1.1,0.8);}
+}
+
+img
+{
+	max-width: 90% ;
+	height: auto ;
+}
+
+
+/* ↓タグ↓ */
+
+h1{
+    font-size:200%;
+    font-weight:normal;
+    font-family: "メイリオ", Meiryo;
+}
+
+h2{
+    font-size:80%;
+    font-weight:normal;
+    margin:5px;
+}
+
+h3{
+    font-size:140%;
+    font-weight:normal;
+    margin:20px 0px;
+    padding:2px 10px;
+    font-family: "メイリオ", Meiryo;
+    border-color:#2ca9e1;
+    border-width:0px 0px 0px 15px;
+    box-shadow:-3px 4px 4px -3px #cccccc;
+    -moz-box-shadow:-3px 4px 4px -3px #cccccc;
+    -webkit-box-shadow:-3px 4px 4px -3px #cccccc;
+    background-color:#effcfb;
+    border-style:double;
+}
+
+h4{
+    font-size:120%;
+    font-weight:normal;
+    margin:10px 0px;
+    background: linear-gradient(transparent 60%, #e6cde3 60%);
+}
+
+h5{
+    font-size:100%;
+    font-weight:normal;
+    margin:5px 0px;
+}
+
+h6{
+    font-size:90%;
+    font-weight:normal;
+    margin:5px;
+    color:#a1a195;
+}
+
+
+
+em{
+    border-color:#006eb0;
+    border-width:1px 0px;
+    border-style:solid;
+    background-color:#fafafa;
+}
+
+strong{
+    background-color:#941f57;
+    color:#fff;
+    font-weight:normal;
+}
+
+small{
+    font-size:80%;
+}
+
+i{
+    font-style:italic;
+    color:#000;
+}
+
+a:link{
+    color:#2ca9e1;
+    text-decoration:none;
+}
+
+a:visited{
+    color:#2ca9e1;
+    text-decoration:none;
+}
+
+a:hover{
+    background-color:#e6cde3;
+}
+
+blockquote{
+    padding:5px;
+    font-size:90%;
+    margin:5px 10px;
+    color:#778899;
+}
+
+blockquote:before{
+    content:'\201c';
+    font-size:150%;
+    color:#000000;
+    margin:0px 10px;
+}
+
+blockquote:after{
+    content:'\201d';
+    font-size:150%;
+    color:#000000;
+    margin:0px 10px;
+}
+
+li{
+    padding:5px;
+}
+
+dl{
+    padding-left:3px;
+    margin:10px;
+}
+
+dt{
+    padding-left:5px;
+}
+
+dd{
+    padding-left:10px;
+}
+
+address{
+    font-size:80%;
+}
+
+cite{
+    font-size:smaller;
+}
+
+
+/* ↓classタグ↓ */
+
+.list1{
+    list-style:none;
+    margin:50px -20px 0px 0px;
+    font-family: "メイリオ", Meiryo;
+}
+
+.list1 li{
+    background-color:#ffffff;
+    text-align:left;
+    margin:10px 0px;
+    padding:5px 10px;
+    border-color:#2ca9e1;
+    border-width:0px 0px 0px 10px;
+    border-style:solid;
+   box-shadow:-3px 4px 4px -3px #cccccc;
+-moz-box-shadow:-3px 4px 4px -3px #cccccc;
+-webkit-box-shadow:-3px 4px 4px -3px #cccccc;
+}
+
+.list1 a{
+    color:#000000;
+    display:block;
+}
+
+.list2{
+    list-style-type: upper-roman;
+    list-style-position:inside;
+}
+
+.hr1{
+    margin:5px 0px;
+    border-top: 1px #ccc;
+    border-bottom: 1px #fff;
+    border-style:solid;
+}
+
+.hr2{
+    margin:5px 0px;
+    border-top: 1px #aaa;
+    border-style:dashed;
+}
+
+.hr3{
+    margin:5px 0px;
+    height:20px;
+    border-width:0px;
+}
+
+.p1{
+    padding:5px;
+    margin:5px 0px;
+    font-size:90%;
+}
+
+.p2{
+    border-style:double;
+    border-width:3px;
+    padding:3px;
+    margin:5px 0px;
+    font-size:90%;
+}
+
+.p3{
+    border-style:dashed;
+    border-width:1px;
+    padding:5px;
+    margin:5px 0px;
+    font-size:90%;
+}
+
+.dt1{
+    margin:3px -5px;
+    color:#000000;
+}
+
+.dt1:before{
+    content:'▼';
+    font-size:100%;
+    color:#23dbc8;
+}
+
+.dd1{
+    font-size:90%;
+    border-width:0px 0px 1px 0px;
+    border-style:dashed;
+    border-color:#cccccc;
+}
+
+.memo{
+    font-size:80%;
+    padding:0px 10px;
+    height:100px;
+    overflow:auto;
+    margin:5px 10px;
+    border-width:1px;
+    border-style:dashed;
+    border-color:#a1a195;
+}
+
+.point{
+    font-size:450%;
+    text-align:center;
+    color:#d9d9d4;
+    margin:-10px;
+    font-family: "メイリオ", Meiryo;
+}
+
+.img1{
+    box-shadow:1px 1px 3px -1px #999999;
+-moz-box-shadow:1px 1px 3px -1px #999999;
+-webkit-box-shadow:1px 1px 3px -1px #999999;
+}
+
+.counter{
+    font-family: "メイリオ", Meiryo;
+}
+
+/*↓ディスプレイ768px以下用↓*/
+
+@media screen and (max-width:768px)
+
+{
+
+.base{
+    width:auto;
+    margin:5px;
+}
+
+.work{
+    float:none;
+    width:auto;
+}
+
+.text{
+    float:none;
+    width:auto;
+}
+
+.menu{
+    float:none;
+    width:auto;
+    margin:0px 15px 10px 0px;
+}
+
+.list1{
+    margin-top:0px;
+}
+
+.list1 li{
+    display: inline-block;
+    width:125px;
+}
+
+.header{
+    font-size:smaller;
+}
+
+}
