@@ -11,8 +11,13 @@
 
 body{
     color:#333;
+    background-color:#eee;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Verdana, sans-serif;
-    background-color:#fdeff2;
+    background-image:url(bg06.avif);
+    background-attachment:fixed;
+    background-repeat:no-repeat;/* 背景画像を繰り返さない */
+    background-position:center;/* 背景画像を中央固定 */
+    background-size:cover;/* 背景画像を画面幅に合わせる */
 }
 
 .base{
