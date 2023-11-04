@@ -11,7 +11,7 @@
 body{
     color:#333;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Verdana, sans-serif;
-    background-color:#fff0f5;
+    background-color:#c8e7fa;
 }
 
 .base{
@@ -172,11 +172,11 @@ h6{
 em{
     border-width:0px 0px 1px 0px;
     border-style:dotted;
-    border-color:#db7093;
+    border-color:#009afa;
 }
 
 strong{
-    background-color:#db7093;
+    background-color:#009afa;
     color:#fff;
     font-weight:normal;
 }
@@ -191,12 +191,12 @@ i{
 }
 
 a:link{
-    color:#db7093;
+    color:#009afa;
     text-decoration:none;
 }
 
 a:visited{
-    color:#db7093;
+    color:#009afa;
     text-decoration:none;
 }
 
@@ -227,6 +227,7 @@ blockquote:after{
 
 li{
     padding:5px;
+    font-size: 90%;
 }
 
 dl{
