@@ -29,9 +29,8 @@ color:inherit
 }
 #contents a:not(.bg-none){
 background:#c1f3f7;
-border-radius:5px;
+border-radius:2px;
 color:#000;
-display:inline-block;
 margin:3px 3px 3px 0;
 transition:.5s
 }
