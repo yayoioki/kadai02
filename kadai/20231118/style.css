@@ -120,6 +120,21 @@ transition: .5s
     padding:0px 0px;
 }
 
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.item2{
+  background-color:#fff;
+  margin:5px;
+  padding:5px;
+  font-size:70%;
+  text-align:center;
+  width:28%;
+  box-shadow:1px 1px 3px -1px #888;
+}
+
 /*--------------------------------------------------------
 メイン
 #leftcolumnと#rightcolumnのwidthを足して
